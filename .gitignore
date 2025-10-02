@@ -1,0 +1,43 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE/editor settings
+.idea/
+.vscode/
+
+# MacOS/Windows system files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache and config
+.streamlit/
+
+# Chroma vector DB storage
+chroma_langchain_db/
+db/
+*.db
+*.sqlite
+
+# Ollama cache/models (if local)
+.ollama/
+
+# Test/output files
+*.log
+*.out
+
+# Data files (uncomment to ignore all CSV, PDF and GIF unless explicitly tracked)
+# *.csv
+# *.pdf
+# *.gif
+assets/*.pdf
