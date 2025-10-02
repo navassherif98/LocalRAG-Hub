@@ -1,6 +1,6 @@
 # LocalRAG Hub
 
-![Demo](assets\LocalRAG-Hub-demo.gif)
+![Demo](assets\demo.gif)
 
 **LocalRAG Hub** is a local, private Retrieval-Augmented Generation (RAG) app leveraging [LangChain](https://github.com/langchain-ai/langchain) and [Ollama](https://ollama.com/) for both LLM and embedding models.  
 It supports both a modern Streamlit web interface and a minimal standalone Python script for learning and experimentation.
