@@ -1,5 +1,7 @@
 # LocalRAG Hub
 
+![Demo](assets\LocalRAG-Hub-demo.gif)
+
 **LocalRAG Hub** is a local, private Retrieval-Augmented Generation (RAG) app leveraging [LangChain](https://github.com/langchain-ai/langchain) and [Ollama](https://ollama.com/) for both LLM and embedding models.  
 It supports both a modern Streamlit web interface and a minimal standalone Python script for learning and experimentation.
 
@@ -79,23 +81,24 @@ If you select a model in the UI that is **not yet pulled** in Ollama, you’ll s
 ## Example Q&A Session (CLI)
 
 Enter path to CSV or PDF: sample.csv
+
 Ollama LLM model (e.g. llama3.2): llama3.2
+
 Ollama emb. model (e.g. mxbai-embed-large): mxbai-embed-large
+
 Docs to retrieve: 4
 
 Ask a question (or type 'exit'): What is NLP?
+
 Answer: Natural Language Processing (NLP) is ...
 
 ---
 
 ## Troubleshooting
 
-- **Model not available:**  
-  See sidebar warning or CLI error and run ollama pull <modelname>
-- **Dependency errors:** 
-  Run pip install -r requirements.txt
-- **PDF errors:**  
-  Make sure the file is not open in another program and is readable by PyPDF2.
+- **Model not available:** See sidebar warning or CLI error and run ollama pull <modelname>
+- **Dependency errors:** Run pip install -r requirements.txt
+- **PDF errors:** Make sure the file is not open in another program and is readable by PyPDF2.
 
 ---
 
